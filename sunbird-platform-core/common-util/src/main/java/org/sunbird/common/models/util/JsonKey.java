@@ -1024,5 +1024,12 @@ public final class JsonKey {
   public static final String OTP_PHONE_WARD_LOGIN_TEMPLATE = "verifyPhoneOtpTemplateWard";
   public static final String OTP_EMAIL_WARD_LOGIN_TEMPLATE = "verifyEmailOtpTemplateWard";
   public static final String SUNBIRD_QRCODE_COURSES_LIMIT ="sunbird_user_qrcode_courses_limit";
+  public static final String CONTENT_PROPS_TO_ADD ="learning.content.props.to.add";
+  public static final String ACCESS_TOKEN_PUBLICKEY_BASEPATH = "accesstoken.publickey.basepath";
+  public static final String ACCESS_TOKEN_PUBLICKEY_KEYPREFIX = "accesstoken.publickey.keyprefix";
+  public static final String ACCESS_TOKEN_PUBLICKEY_KEYCOUNT = "accesstoken.publickey.keycount";
+  public static final String SHA_256_WITH_RSA = "SHA256withRSA";
+  public static final String SUB = "sub";
+  public static final String DOT_SEPARATOR = ".";
   private JsonKey() {}
 }

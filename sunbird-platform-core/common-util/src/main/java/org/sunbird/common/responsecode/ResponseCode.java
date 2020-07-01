@@ -857,6 +857,11 @@ public enum ResponseCode {
           ResponseMessage.Key.MISSING_CODE, ResponseMessage.Message.MISSING_MESSAGE),
   managedByNotAllowed(
     ResponseMessage.Key.MANAGED_BY_NOT_ALLOWED, ResponseMessage.Message.MANAGED_BY_NOT_ALLOWED),
+  contentTypeMismatch(
+          ResponseMessage.Key.CONTENT_TYPE_MISMATCH, ResponseMessage.Message.CONTENT_TYPE_MISMATCH),
+  mimeTypeMismatch(
+          ResponseMessage.Key.MIME_TYPE_MISMATCH, ResponseMessage.Message.MIME_TYPE_MISMATCH),
+
   OK(200),
   CLIENT_ERROR(400),
   SERVER_ERROR(500),

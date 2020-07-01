@@ -470,6 +470,8 @@ public interface ResponseMessage {
     String SERVICE_UNAVAILABLE = "SERVICE UNAVAILABLE";
     String MISSING_MESSAGE = "Required fields for create course are missing. {0}";
     String MANAGED_BY_NOT_ALLOWED = "managedBy cannot be updated.";
+    String CONTENT_TYPE_MISMATCH = "Content Type should be Course";
+    String MIME_TYPE_MISMATCH = "MimeType should be application/vnd.ekstep.content-collection";
   }
 
   interface Key {
@@ -867,5 +869,7 @@ public interface ResponseMessage {
     String SERVICE_UNAVAILABLE = "SERVICE_UNAVAILABLE";
     String MISSING_CODE = "ERR_COURSE_CREATE_FIELDS_MISSING";
     String MANAGED_BY_NOT_ALLOWED = "MANAGED_BY_NOT_ALLOWED";
+    String CONTENT_TYPE_MISMATCH = "CONTENT_TYPE_MISMATCH";
+    String MIME_TYPE_MISMATCH = "MIME_TYPE_MISMATCH";
   }
 }
